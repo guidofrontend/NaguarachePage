@@ -1,0 +1,199 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./images/maderaFondo.jpg);
+    background-size: contain;
+    background-position-y: center;
+    color: rgb(255, 255, 224);
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.beige{
+    background-color: #FAF0E6;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+}
+
+.wrapper1{
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+    background-color: #FAF0E6;
+}
+
+.menu li{
+    display: inline-block;
+    padding-right: 40px;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6A653F;
+    height: 200px;
+    color: rgb(255, 255, 224);
+}
+
+.hero p{
+    font-family: 'Indie Flower', cursive;
+    margin: 20px;
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p strong{
+    color: gold;
+}
+
+.hero figure{
+    margin: 0;
+    overflow: hidden;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FAF0E6;
+    height: 250px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+}
+
+.icons figure{
+    margin: 15px 100px;
+    margin-bottom: 0px;
+}
+
+.icons p{
+    margin: 5px 115px;
+    margin-top: 0;
+    font-family: 'Poppins', serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+h3{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    background-color: #FAF0E6;
+    margin: 0;
+}
+
+.food{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAF0E6;
+}
+
+.food-item{
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 350px;
+    font-family: 'Crimson Text', serif;
+    background-color: whitesmoke;
+    text-align: center;
+    align-items: flex-end;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.food-item h4{
+    margin-block-end: 5px;
+    margin-block-start: 0px;
+    font-size: 40px;
+}
+
+.food-item ul{
+    list-style: none;
+    padding-inline-start: 0;
+    font-size: 25px;
+} 
+
+.food-item p{
+    font-size: 25px;
+    margin-block-end: 10px;
+}
+
+.food-item figure{
+    margin-block-end: 0;
+    margin: 0;
+}
+
+.milanesa-list{
+    margin-block-start: 30px;
+    margin-block-end: 34px;
+}
+
+.empanada-list{
+    margin-block-start: 5px;
+}
+
+.arepa-list{
+    margin-block-start: 5px;
+}
+
+.dona-image{
+    width: 350px;
+}
+
+.churro-image{
+    width: 350px;
+}
+
+.social{
+    color: rgb(255, 255, 224);
+    background-color: #6A653F;
+    font-size: 25px;
+    font-family: 'Poppins', serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.social h2{
+    margin: 0;
+    padding-right: 20px;
+}
+
+.social a{
+    background-image:url(./images/instagram.svg);
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p{
+    margin: 0;
+}
