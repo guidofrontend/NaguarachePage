@@ -18,7 +18,8 @@ body{
 }
 
 .wrapper{
-    width: 1200px;
+    border: solid red;
+    width: 80%;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -27,7 +28,7 @@ body{
 }
 
 .wrapper1{
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -83,16 +84,25 @@ body{
 }
 
 .icons figure{
-    margin: 15px 100px;
+    text-align: center;
+    display: block;
+    margin: 0;
     margin-bottom: 0px;
+    width: 33%;
 }
 
 .icons p{
-    margin: 5px 115px;
-    margin-top: 0;
+    margin-top: 1em;
     font-family: 'Poppins', serif;
     font-size: large;
     font-weight: 600;
+}
+
+.icons img{
+    max-width: 200px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
 }
 
 h3{
@@ -111,14 +121,15 @@ h3{
 .food-item{
     border: solid black;
     border-radius: 10px;
-    margin: 10px;
-    width: 350px;
+    margin: 1%;
+    margin-bottom: 2%;
+    width: 25%;
+    height: 90%;
     font-family: 'Crimson Text', serif;
     background-color: whitesmoke;
     text-align: center;
     align-items: flex-end;
     overflow: hidden;
-    margin-bottom: 80px;
 }
 
 .food-item h4{
@@ -141,6 +152,8 @@ h3{
 .food-item figure{
     margin-block-end: 0;
     margin: 0;
+    height: 40%;
+    width: 100%;
 }
 
 .milanesa-list{
@@ -156,12 +169,34 @@ h3{
     margin-block-start: 5px;
 }
 
+.empanada-image{
+    width: 100%;
+    height: 100%;
+}
+
+.milanesa-image{
+    width: 100%;
+    height: 100%;
+}
+
+.arepa-image{
+    width: 100%;
+    height: 100%;
+}
+
 .dona-image{
-    width: 350px;
+    width: 100%;
+    height: 100%;
 }
 
 .churro-image{
-    width: 350px;
+    width: 100%;
+    height: 100%;
+}
+
+.quesillo-image{
+    width: 100%;
+    height: 100%;
 }
 
 .social{
@@ -202,4 +237,22 @@ footer{
 
 footer p{
     margin: 0;
+}
+
+@media screen and (max-width: 1023px){
+    .wrapper{
+        width: 100%;
+    }
+    .wrapper1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1622px){
+    .food h4{
+        font-size: 30px;
+    }
+    .food ul{
+        font-size: 20px;
+    }
 }
