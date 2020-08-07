@@ -157,16 +157,18 @@ h3{
 }
 
 .milanesa-list{
-    margin-block-start: 30px;
-    margin-block-end: 34px;
+    margin-block-start: 1.4em;
+    margin-block-end: 1.5em;
 }
 
 .empanada-list{
-    margin-block-start: 5px;
+    margin-block-start: .5em;
+    margin-block-end: 1em;
 }
 
 .arepa-list{
-    margin-block-start: 5px;
+    margin-block-start: .5em;
+    margin-block-end: 1em;
 }
 
 .empanada-image{
@@ -239,6 +241,31 @@ footer p{
     margin: 0;
 }
 
+@media screen and (max-width: 1622px){
+    .food h4{
+        font-size: 30px;
+    }
+    .food ul{
+        font-size: 20px;
+    }
+    .food-item p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .food h4{
+        font-size: 25px;
+    }
+    .food ul{
+        font-size: 15px;
+    }
+    .food-item p{
+        font-size: 15px;
+    }
+}
+
+
 @media screen and (max-width: 1023px){
     .wrapper{
         width: 100%;
@@ -248,11 +275,38 @@ footer p{
     }
 }
 
-@media screen and (max-width: 1622px){
-    .food h4{
-        font-size: 30px;
+@media screen and (max-width: 819px){
+    header{
+        display: block;
+        text-align: center;
     }
-    .food ul{
-        font-size: 20px;
+    header ul{
+        padding: 0;
+    }
+    header .menu li{
+        display: block;
+        padding: .5em;
     }
 }
+
+@media screen and (max-width: 769px){
+    .food-item{
+        min-width: 197px;
+        max-height: 261px;
+    }
+    .hero{
+        display: block;
+        text-align: center;
+    }
+    .portada{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .food{
+        flex-wrap: wrap;
+        padding-bottom: 15px
+    }
+}
+
