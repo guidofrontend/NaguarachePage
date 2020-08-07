@@ -18,7 +18,7 @@ body{
 }
 
 .wrapper{
-    border: solid red;
+    border: solid transparent;
     width: 80%;
     margin: 0 auto;
     display: inherit;
@@ -308,5 +308,87 @@ footer p{
         flex-wrap: wrap;
         padding-bottom: 15px
     }
+    .icons figure{
+        width: 165px;
+        height: 130px;
+    }
+    .icons p{
+        font-size: 15px;
+    }
+    .icons{
+        height: 200px;
+    }
 }
 
+@media screen and (max-width: 555px){
+    .icons figure{
+        width: 120px;
+        height: 90px;
+    }
+    .icons p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .social h2{
+        font-size: 115%;
+    }
+    .social .logoig{
+        background-size: 40px 40px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 424px){
+    h3{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero p{
+        font-size: 200%;
+    }
+    .hero{
+        height: auto;
+    }
+    .icons figure{
+        width: 100px;
+        height: 70px;
+    }
+    .icons p{
+        font-size: 15px;
+    }
+    .icons{
+        height: 155px;
+    }
+    .social h2{
+        font-size: 20px;
+    }
+    .social .logoig{
+        background-size: 30px 30px;
+        width: 30px;
+        height: 30px;
+    }
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .icons figure{
+        width: 80px;
+        height: 60px;
+    }
+    .icons p{
+        font-size: 13px;
+    }
+    .icons{
+        height: 130px;
+    }
+    .menu li{
+        font-size: 20px;
+    }
+}
